@@ -17,7 +17,7 @@ Implement algorithms – Implement one or more algorithms that use loops and log
 
 Put an image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get displayed on this README.
 
-![UML Diagram for my project](nameOfImageFileHere.png)
+![UML Diagram for my project](UMLDiagram.png)
 
 ## Video
 
@@ -29,12 +29,14 @@ Record a short video of your story to display here on your README. You can do th
 - Upload the thumbnail image to your repo.
 - Use the following markdown
 
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+[![Thumbnail for my projet](thumbnail.png)]((https://youtu.be/o3BczM3iXDM))
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give additional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcases.
+My project represents different types of dances  and how they look when displayed on a filter. I chose difference styles of dance because dance  is something that I really enjoy so I wanted to show people some beautiful pictures I was able to find and display them under code that I was able to learn about.
 
 ## Image Filter Analysis
 
-Choose at least 2 filters used in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+For the colorize Filter, the filter takes the image and each time applies 255 red, and 0 green and blue, then that pattern continues on to change by it being 0 red, 255 green, and 0 blue, and so on. This allows the image to display only very bright shades of green red and blue. 
+
+For the negative filter, it applys each of the red green and blue colors, and it subtracts 255 to the current amount. This then allows the images to turn into a various shades of blue grey white and black which is considered the negative colored images. 
